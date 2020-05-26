@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="GradeCalculator:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -10,7 +15,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="961cb4cc-47f1-4c1c-a73c-14a9de4ab851" name="Default Changelist" comment="" />
+    <list default="true" id="961cb4cc-47f1-4c1c-a73c-14a9de4ab851" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/GradeCalculator_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/GradeCalculator/ExamTester.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/GradeCalculator/ExamTester.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Gradable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Gradable.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,13 +51,15 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/.idea" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
@@ -74,6 +88,14 @@
       <option name="presentableId" value="Default" />
       <updated>1590197229762</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial Commit">
+      <created>1590373295637</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590373295637</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,31 +108,56 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2358" y="425" key="#com.intellij.ide.util.MemberChooser" timestamp="1590370098644">
       <screen x="0" y="23" width="3440" height="1342" />
     </state>
     <state x="2358" y="425" key="#com.intellij.ide.util.MemberChooser/0.23.3440.1342@0.23.3440.1342" timestamp="1590370098644" />
-    <state width="1358" height="371" key="GridCell.Tab.0.bottom" timestamp="1590371955299">
+    <state x="2280" y="509" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1590376911034">
       <screen x="0" y="23" width="3440" height="1342" />
     </state>
-    <state width="1358" height="371" key="GridCell.Tab.0.bottom/0.23.3440.1342@0.23.3440.1342" timestamp="1590371955299" />
-    <state width="1358" height="371" key="GridCell.Tab.0.center" timestamp="1590371955297">
+    <state x="2280" y="509" key="#com.intellij.ide.util.TreeClassChooserDialog/0.23.3440.1342@0.23.3440.1342" timestamp="1590376911034" />
+    <state width="1358" height="371" key="GridCell.Tab.0.bottom" timestamp="1590375000752">
       <screen x="0" y="23" width="3440" height="1342" />
     </state>
-    <state width="1358" height="371" key="GridCell.Tab.0.center/0.23.3440.1342@0.23.3440.1342" timestamp="1590371955297" />
-    <state width="1358" height="371" key="GridCell.Tab.0.left" timestamp="1590371955296">
+    <state width="1358" height="371" key="GridCell.Tab.0.bottom/0.23.3440.1342@0.23.3440.1342" timestamp="1590375000752" />
+    <state width="1358" height="371" key="GridCell.Tab.0.center" timestamp="1590375000752">
       <screen x="0" y="23" width="3440" height="1342" />
     </state>
-    <state width="1358" height="371" key="GridCell.Tab.0.left/0.23.3440.1342@0.23.3440.1342" timestamp="1590371955296" />
-    <state width="1358" height="371" key="GridCell.Tab.0.right" timestamp="1590371955298">
+    <state width="1358" height="371" key="GridCell.Tab.0.center/0.23.3440.1342@0.23.3440.1342" timestamp="1590375000752" />
+    <state width="1358" height="371" key="GridCell.Tab.0.left" timestamp="1590375000752">
       <screen x="0" y="23" width="3440" height="1342" />
     </state>
-    <state width="1358" height="371" key="GridCell.Tab.0.right/0.23.3440.1342@0.23.3440.1342" timestamp="1590371955298" />
+    <state width="1358" height="371" key="GridCell.Tab.0.left/0.23.3440.1342@0.23.3440.1342" timestamp="1590375000752" />
+    <state width="1358" height="371" key="GridCell.Tab.0.right" timestamp="1590375000752">
+      <screen x="0" y="23" width="3440" height="1342" />
+    </state>
+    <state width="1358" height="371" key="GridCell.Tab.0.right/0.23.3440.1342@0.23.3440.1342" timestamp="1590375000752" />
+    <state x="2030" y="293" key="SettingsEditor" timestamp="1590376944212">
+      <screen x="0" y="23" width="3440" height="1342" />
+    </state>
+    <state x="2030" y="293" key="SettingsEditor/0.23.3440.1342@0.23.3440.1342" timestamp="1590376944212" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1590365407066">
       <screen x="0" y="23" width="3440" height="1342" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.23.3440.1342@0.23.3440.1342" timestamp="1590365407066" />
+    <state x="2142" y="451" key="Vcs.Push.Dialog.v2" timestamp="1590373595597">
+      <screen x="0" y="23" width="3440" height="1342" />
+    </state>
+    <state x="2142" y="451" key="Vcs.Push.Dialog.v2/0.23.3440.1342@0.23.3440.1342" timestamp="1590373595597" />
+    <state x="2364" y="612" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1590373566786">
+      <screen x="0" y="23" width="3440" height="1342" />
+    </state>
+    <state x="2364" y="612" key="git4idea.remote.GitConfigureRemotesDialog/0.23.3440.1342@0.23.3440.1342" timestamp="1590373566786" />
+    <state x="1965" y="334" key="new project wizard" timestamp="1590375048240">
+      <screen x="0" y="23" width="3440" height="1342" />
+    </state>
+    <state x="1965" y="334" key="new project wizard/0.23.3440.1342@0.23.3440.1342" timestamp="1590375048240" />
   </component>
 </project>

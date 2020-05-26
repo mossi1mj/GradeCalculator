@@ -4,6 +4,12 @@ public class Exam implements Gradable{
     private double numCorrect; //default value of 0
     private double numQuestions; //default value of 0
 
+    /***
+     * Setting the blueprint of what every Exam will consist of.
+     * @param topic object that holds the subject of Grade
+     * @param numCorrect object that holds number correct of Exam
+     * @param numQuestions object that holds total number of questions
+     */
     //constructor
     public Exam(String topic, double numCorrect, double numQuestions){
         this.topic = topic;
@@ -33,11 +39,18 @@ public class Exam implements Gradable{
         return numQuestions;
     }//end of getNumQuestions
 
-    //Methods implemented in Main
+    /***
+     *  Method that calculates score.
+     * @return returns Number of correct questions divided by Total number of questions and returns the result
+     */
     public double calculateScore(){
         return numCorrect / numQuestions;
     }//end of calculateScore
 
+    /***
+     * method which calls calculateScore method implemented earlier
+     * @return returns letter grade in specified range
+     */
     public char toLetterGrade(){
         if (calculateScore() >= .9){
             return 'A';
